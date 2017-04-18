@@ -1,0 +1,27 @@
+{
+  "name": "cordova-plugin-android-window-background",
+  "version": "1.0.0",
+  "description": "Plugin to set Android window background for Cordova/Ionic applications",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/winteragency/cordova-plugin-android-window-background.git"
+  },
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android",
+    "payments",
+    "android",
+    "ionic",
+	"background",
+	"window",
+	"background"
+  ],
+  "author": {
+    "name": "WINTER",
+    "email": "info@winter.ax",
+    "url": "https://winter.ax"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/winteragency/cordova-plugin-android-window-background"
+}
