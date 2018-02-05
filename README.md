@@ -40,15 +40,12 @@ To re-add the Android platform:
 - Allow an image background to be used as windowBackground? Perhaps set it to the same image as the splash screen automatically?
 - Find a way to make changes to config.xml automatically update without having to re-add the platform.
 
-## Thanks / Credits
 
-Inspired by [douglaszaltron's](https://github.com/douglaszaltron) [original plugin](https://www.npmjs.com/package/cordova-plugin-window-background), which seems to have been removed from GitHub... :disappointed:
-	
 ## License
 
 The MIT License
 
-Copyright (c) 2016, WINTER AGENCY
+Copyright (c) 2018, WINTER AGENCY
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
