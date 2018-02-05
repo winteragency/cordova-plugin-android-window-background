@@ -5,6 +5,10 @@
     <license>MIT</license>
     <author>WINTER</author>
     <keywords>cordova,ionic,android,window background,color,background,window,theme,styles.xml</keywords>
+	
+	<engines>
+	  <engine name="cordova-android" version=">=7.0.0" />
+	</engines>
 
   	<platform name="android">
   		<preference name="WINDOW_BACKGROUND_COLOR" />
@@ -13,14 +17,14 @@
   			<activity android:name="MainActivity" android:theme="@style/CordovaWindowBackgroundTheme"/>
   		</edit-config>
 
-  		<source-file src="cordova-window-background-strings.xml" target-dir="res/values" />
-  		<source-file src="cordova-window-background-styles.xml" target-dir="res/values" />
+  		<source-file src="cordova-window-background-strings.xml" target-dir="app/src/main/res/values" />
+  		<source-file src="cordova-window-background-styles.xml" target-dir="app/src/main/res/values" />
 
-  		<config-file target="res/values/cordova-window-background-strings.xml" parent="/*">
+  		<config-file target="app/src/main/res/values/cordova-window-background-strings.xml" parent="/*">
   			<color name="cordova_window_background">$WINDOW_BACKGROUND_COLOR</color>
   		</config-file>
 
-  		<config-file target="res/values/cordova-window-background-styles.xml" parent="/*">
+  		<config-file target="app/src/main/res/values/cordova-window-background-styles.xml" parent="/*">
   			<style name="CordovaWindowBackgroundTheme" parent="@android:style/Theme.NoTitleBar">
   				<item name="android:windowBackground">@color/cordova_window_background</item>
   			</style>
